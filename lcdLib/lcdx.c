@@ -19,6 +19,6 @@ main()
   for(j=0;j<15;j++){
     drawPixel(j,j,COLOR_BLACK);
     drawPixel(0,j,COLOR_BLACK);
-    drawPixel(j,0,COLOR_BLACK);
+    drawPixel(j,15,COLOR_BLACK);
   }
 }
